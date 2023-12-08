@@ -34,8 +34,9 @@ used to access runtime context, System.trigger class provides it.
 
 Record is read Only in after Event, while can only be updatable in Before events.(Current Record that triggers the trigger)
 
-
-
+In before event triggers, don't do any DML operation...before context is when record ain't exist and will be 
+commting to database, in meantime before triggers update there instances and auto get commited to db's. 
+so no need to do dml in before triggers. 
 
 
 Note: This repo contains kind of sudo codes...Though every company for the SF interviews are asking
