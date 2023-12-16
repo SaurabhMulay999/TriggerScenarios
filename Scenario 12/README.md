@@ -35,11 +35,4 @@ After Event.
 
 
 
-
-
-
-
-Steps::
-
-
 ```
